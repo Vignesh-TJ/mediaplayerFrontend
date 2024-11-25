@@ -1,0 +1,49 @@
+json server:
+    json server is a light weight and easy to use node.js tool that can stimulate restful apis using json file as a data source
+    ->basically used by front end developers
+    ->basically used for testing
+    ->can performe crud 
+    crud
+      create-read-update-delete
+      http 
+
+
+STEPS TO SETUP JSON SERVER:
+  1->create seperate folder for the server
+  2->create pakage.json -->config
+    npm init -y
+  3-->install json server library
+       npm i json-server
+       npm i json-server@0.17.4--version
+
+  4->create .gitignore file outside
+  5->create .json file to store data
+  6->only file that runs in the server side (index.js)
+  7->edit script tag
+     in pakage .json file
+  8->create server in index.js
+       *import json server library
+         const jsonServer =require('json-server')
+         *create server using create method library
+
+
+
+         3000(react run)
+         5170(vite)
+         4200(angular)
+
+
+side effect:
+   useEffect-used to handle side effects
+   eg:api
+    useEffect(()=>{
+
+    },dependency)
+    1:function
+    2:dependency-optional
+       ->no dependency-calls in every render
+       ->empty array-call when component render into the browser
+       ->[state,props]-call when the component render into the browser as well as the value of props or state change
+
+
+state lifting
